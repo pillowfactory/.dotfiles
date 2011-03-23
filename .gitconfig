@@ -1,0 +1,78 @@
+[user]
+    name = Luke Pillow
+    email = lpillow@gmail.com
+
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    dc = diff --cached
+    dh = diff HEAD
+    lg = log -p
+    l  = log --pretty=format:\"-- %h %ad %s\" --date=short
+
+; [core]
+    ; excludesfile = /Users/lpillow/.gitignore
+
+[push]
+    default = tracking
+
+[branch]
+    autosetuprebase = always
+
+[color]
+    ui = auto
+
+[color "branch"]
+    current = green
+    ;current = blue
+    remote = yellow
+
+[color "diff"]
+    frag = cyan
+    ;frag = black
+    old = yellow
+    ;old = red
+    new = green
+    ;new = blue
+    commit = cyan ul
+    ;commit = black ul
+    whitespace = cyan reverse
+    ;whitespace = blue reverse
+
+[color "status"]
+    added = cyan
+    ;added = blue
+    changed = green
+    ;changed = red
+    untracked = yellow
+    ;untracked = red
+
+;; Color Attributes
+; color.branch
+; color.branch.current
+; color.branch.local
+; color.branch.remote
+; color.branch.plain
+; color.diff
+; color.diff.plain
+; color.diff.meta
+; color.diff.frag
+; color.diff.old
+; color.diff.new
+; color.diff.commit
+; color.diff.whitespace
+; color.pager
+; color.status
+; color.status.header
+; color.status.added
+; color.status.changed
+; color.status.untracked
+
+;; Color Values 
+;;   May constitute a combination of color and modifier.
+;;   If two colors are given, the second one defines background
+; black red green yellow blue magenta cyan white
+; bold dim ul blink reverse

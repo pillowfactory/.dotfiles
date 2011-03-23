@@ -1,0 +1,4 @@
+color vividchalk
+nmap \\ <Plug>NERDCommenterInvert
+xmap \\ <Plug>NERDCommenterInvert
+
